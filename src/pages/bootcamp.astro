@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout2.astro';
 import Header from '../components/header.astro';
 import Content from '../components/test.astro';
 import Content2 from '../components/middle.astro';
+import Card from '../components/cards.astro';
+import Faq from '../components/faq.astro';
 import File1 from '../pages/boot_p1.md';
 import File2 from '../pages/boot_p2.md';
 import File3 from '../pages/boot_p3.md';
@@ -26,6 +28,86 @@ import File3 from '../pages/boot_p3.md';
 		<div class="d4">
 		    <Content2/>
 		</div>
+
+		<div class="cards_grid">
+		    <Card content="The web development bootcamp was a game changer for me. It taught me how to develop modern web applications using the best practices, I recommend it 100%!!!" author="Victor Campos" />
+			<Card content="I can’t recommend enough this course for self-learner developer. It gives me the bird's eye view of current technology and lots of portfolio projects. But my most valuable takeaway from this course is the newbie learning community that learns together with you. For me, this course boost my confidence to apply for dev jobs, and alhamdulillah, 1 month later I got a full time job as a developer." author="Ivan Zulfikar" />		
+			<Card content="This course was a game changer for me. The more regimented coursework made me realize I had to grind harder if I wanted to make it. It also teaches you a wide range of skills, vs Udemy courses where you'll learn 5 skill sets maybe at most. Here you'll learn 20+ (probably more). I already feel like I've learned 20x what I could have found on my own. Thanks Flavio!" author="Brad Alexander" />
+			<Card content="Flavio offers a personal feeling bootcamp course that allows you to interact with him and 50+ fellow course participants using Discord and great online courses. If you can 'do JavaScript' but want to go the next level I highly recommend joining where you can work at your own pace but take part with many others for support. Come increase the fun!" author="Geoff Hollingworth" />
+		
+			<Card content="I am really enjoying Flavio's course, there are so many nuggets of wisdom in there. To have such a vast range of smooth flowing and consistent JavaScript learning material in one place is a pleasure- thank you Flavio!!" author="Pete Roobol" />
+		
+			<Card content="I learned the most valuable lessons in practice, theory, and execution. The bootcamp gives a well-defined curriculum including projects and examples. The text-based style is just exponentially great and Flavio is always there to help out!" author="Farkas Attila" />
+		
+			<Card content="Finally I found an affordable & flexible ONLINE bootcamp where I can manage my time between learning and my family. Fellow students who always help each other & with Flavio himself actively engage with what student needs help me enormously in my learning journey!" author="Ayu Adiati" />
+		    
+			<Card content="This course is much more satisfying than General Assembly's JavaScript Development class. Flavio gets into the nitty-gritty of how things work and why they work that way. I'm a QA Engineer at a tech startup and I'm learning a lot about the tools that my Engineering team already uses and I think it's helping me to be better at my job. I also really appreciate that you can work on this course at your own pace." author="Anna Kalil" />
+		
+			<Card content="I just wanted to share what a great experience I am having in this bootcamp. I was so nervous to sign up for this, but after a month, I am getting to know some great people from all over who share my enthusiasm for building web apps. In a short time I have already learned a LOT. I love Tailwind CSS, and now that we are beginning the JavaScript portion of the bootcamp, I am even more excited than I was before the class started. Honestly, this has been one of the best decisions I have made. Thanks for all of your efforts to lift us up as pro developers and for giving me a break on the tuition. It is worth every penny and then some!" author="Tom Phillips" />
+		
+			<Card content="I started learning programming a couple of months before the bootcamp started, and it felt overwhelming to figure out how I should approach it. I tried using other tutorials, but the ones I found were mostly video-based and I found it hard to follow, especially since I am a beginner. However, this bootcamp is text-based, and I find it much more enjoyable to be able to go back and read the material again, I feel I am absorbing the information in a different way. Also, the bootcamp has given me a good structure for learning all the topics that are necessary to become a full-stack developer, which would have taken me a very long time to figure out on my own. In addition, the Discord community is very friendly, and I have found lots of help and information from the chat." author="Christian Halvorsen" />
+		
+			<Card content="I had some background in learning this programming language, but this course offered so much more insight into all things that happen behind the scenes! I feel a little bit more confident, that I will be able to prosper in my future career with JavaScript." author="Gedrie" />
+		
+			<Card content="The JS Bootcamp is an excellent resource for anybody looking to improve. I still use this course as a primary resource for gaps in JS knowledge. Highly recommend you give this course a try!" author="Lamberto Asghedom" />
+		
+			<Card content="It's great to be part of the JS Bootcamp, learning new things with the friendly Discord community. A nice thing about Flavio's course is that the theory is written in small fun blocks with some practical projects on the side so it allows you to follow it easily." author="Aurore Knapic" />
+		
+			<Card content="Flavio's lessons get you building real things right away. The variety of projects you'll build will serve as great examples for building your own products. He uses the latest libraries, tech, and tools to get you up and running in no time." author="Corey Gwin" />
+		
+			<Card content="I've learned a lot from Flavio's React.js, Node.js related courses, since my current job tech stack is using JavaScript a lot. The challenges at the end of each lesson are interesting as well. I do agree with Flavio as his courses format are not videos. So I can reference anytime I want to remind myself anything." author="Khanh Mai" />
+		
+			<Card content="Flavio is a great developer with the humility to show his process in development; instead of showing only the perfect 'Ciak'. This translates into a real lesson where you can learn the mindset, the approach you face, the theory but you come home with much more. Becoming a programmer is hard, Flavio is teaching me a serious and profitable approach to becoming a good developer with real projects." author="Giandomenico Riceputi" />
+		
+			<Card content="Flavio's courses are a great resource that you can reference from time to time when you get stuck. They are well-organized & follow a flow that will make understanding them easier as you go on plus you get to actually build something while learning." author="Joan Henry" />
+		
+			<Card content="The course has been very good. I learned a lot and it got me thinking about what I have to work on and improve. I found the content and pace of the workshop excellent, I like the format. This was the first time I was involved in webinar training, and it has been a great learning experience, there are so many little things to know and learn one couldn’t possibly learn it on their own, and that’s where Flavio and the JS Bootcamp really make the difference. Also, I found it to be a very good webinar for newcomers to the web world. The information provided will prove to be very useful in practice." author="Francisco Intriago" />
+		
+			<Card content="Hi everyone. My name is Illia, I am from Belarus, a little country in the middle of Europe. I am a second year student now. And I want to tell you about The JS Bootcamp. It was really awesome. I found this course at the end of May and understood, that is what I really want to learn in the summer, while I was on vacation. I don’t know English very well, and this course was really good to learn it with Flavio. You should be very hardworking to finish that course, because there is a lot of new information, and you need to understand it in a little period of time. At the end of this course, you can try to find work because now you know all concepts of JS, and it is enough to be a JS developer." author="Illia Laziuk" />
+		
+			<Card content="The JS Bootcamp is in a written form and available forever which is great. You can always go back and refresh your memory, and you will since it's so full of information, tips and tricks - the curriculum is huge! I am a junior front end for about a year and a half now and yet I found so many details in the course materials that I never learned in a proper way before. Also finally learned and understood the bigger picture of frontend development, not just HTML, CSS, and JavaScript but all other things that come into play like npm, webpack, babel, networking, and many other concepts that are missing from most courses I took in the past. Pair that with a very, very low price, multiple discount options, a very friendly and helpful instructor Flavio, and you have a great deal. The community is also just the right size, not too big, not too small, someone is always there to help you move through the curriculum. Flavio also leaves no questions / requests unanswered." author="Mirjana Tomic" />
+		
+			<Card content="I have learned a lot and really could expand my knowledge. One of the main things I learned: there's so much more you can do with JavaScript today compared to 12 years ago, so it is inevitable to stay up to date. This bootcamp is the right place because you get information that starts from zero up to advanced modern topics. And the Discord chat gives you the opportunity to discuss with the other participants in order to seek for and provide help or just to chat. I can recommend the JavaScript Bootcamp to everyone who is involved in web development!" author="Marco Kuprat" />
+		
+			<Card content="You will be hard-pressed to find a more comprehensive course for full-stack web development on the Internet. Modern web development requires you to know a lot. And Flavio provides that knowledge with enough depth to keep you going when the bootcamp is over. The material is well-presented, easy to follow and actually up-to-date. You will learn what is relevant now or, more importantly, what might be essential tomorrow and not what was hot yesterday. There is so much to learn. And it will require further studies on my own. But for the first time I have the feeling that I can get somewhere with an online course, working confidently on the front- and backend, equipped with the knowledge of an up-to-date tech stack. Hence, if you want to become a full-stack JS developer I wholeheartedly recommend this bootcamp!" author="Christian Schlobach" />
+		
+			<Card content="I love Flavio's courses, and reference books also because they are very different from other resources. It feels like you are doing some peer programming with a more experienced colleague and friend who takes great care of your understanding and rapid implementation of what is covered. It is also great if you want to ramp up rapidly on ReactJS and discover new things like Netlify, MACH, and JAMstack. Thank you, Flavio, for putting your learning materials together." author="Dominique M." />
+		
+			<Card content="Flavio’s Boot Camp gave me the directions, resources, and knowledge on how to achieve a next level Web Development. The project-based curriculum is the best way to quickly put in practice the lessons and move them to your projects. It gives and explains all the foundations you need. And to go a step further, you will always have an active Discord community that grows around the boot camp." author="Miguel mvqdev" />
+		
+			<Card content="The Bootcamp 2022 was really amazing. After a brief introduction in JavaScript, Next.js, React, Tailwind, databases and Rest API we practiced building real projects, also deployed in production. These projects were really exciting, especially because they combine frontend and backend functionality. In combination with an online database it is now possible for us to build great projects ourselves. It is precisely this aspect that makes this course so valuable for me. I’m very motivated to continue programming and improve my skills! I am proud to be on this level now, thank you Flavio!" author="Johannes Langosch" />
+		
+			<Card content="I look forward to registering for each new course by Flavio because of the combination of clear instruction, international peers from a range of backgrounds and experiences, flexible asynchronous content and assignments, encouragement of constructive climate and the opportunity to participate in Discord cohort interactions. I first encountered Flavio's instruction through an assigned article in a class, which led me to his e-books. Flavio has an impressive ability to provide concise explanations that are complete enough to comprehensively introduce topics to beginners. His courses are a valuable extension to his writing at https://thevalleyofcode.com/" author="Patrice, Information Architect" />
+		
+			<Card content="Flavio's courses are simply fantastic!!! He breaks down all the concepts into small bites that are easy to comprehend and digest. Included in his courses are short videos, text, and obviously the Discord community that Flavio monitors daily and will respond to your question within hours. The classes are top quality at very affordable prices. The entire curriculum is project-based, so I had the opportunity to learn a concept put it in use right away create a project on the cloud. I highly encourage folks to give the 5-star course a try." author="Deepak B" />
+		
+			<Card content="I took Flavio’s boot camp in 2021 while I was unemployed, and it is one of the best things I’ve done for my career. While at the time I felt the content was a little basic, in retrospect this is only because Flavio does such a great job of breaking down concepts. I gained so much knowledge about web technologies I was exposed to daily but knew little about. Even things I did have some knowledge about, like deployment, were enriched through the boot camp—now I know about other services I can use to deploy apps more quickly as well as knowledge about how to utilize webhooks to continuously deploy to servers I set up. I still use skills I learned from the boot camp in my current job as a test automation engineer and am often teaching the skills I learned to more junior members of the team too. Thanks Flavio!" author="Adam" />
+		
+			<Card content="At the time I was unemployed and non-able to pay for a boot camp. Thanks to Flavio's financial help I could join a high-quality boot camp. By studying seriously his boot camp + free material, I was able to land a job as a full-stack software developer. Flavio’s boot camp contains the latest technology that gave a huge advantage over other candidates. Flavio is a great programmer, great teacher, but especially he has a golden heart." author="Carlos" />
+		
+			<Card content="I had the pleasure of attending the 'Flavio Copes JavaScript boot camps' educational programs in 2021, 2022, and 2023 and found them to be an incredibly valuable learning experience. The program provided clear and concise instruction on important aspects of coding and modern technology, and the practical examples and hands-on projects allowed me to apply what I was learning in real-world examples, which was incredibly valuable to my understanding and skill development. As a mature professional, the multi-week program was flexible and allowed me to learn at my own pace, which was great for balancing my work and life schedule. The clear step-by-step approach of the program, focused on important aspects of coding and current tools and services, has made the learning process manageable and enjoyable for me. The community aspect of the program was also a major plus, as it provided a supportive and encouraging environment for learning and growth. Overall, I would highly recommend the 'JavaScript boot camp' to anyone looking to improve their skills and knowledge in the world of coding." author="Jeff – Toronto, Canada" />
+		  
+			
+        </div>
+
+		<div id="twitter_post>
+		    <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Flavio is a legend! I would do this if I were jumping into web dev. <a href="https://t.co/gTbsCcpK0f">https://t.co/gTbsCcpK0f</a></p>&mdash; Daniel Vassallo (@dvassallo) <a href="https://twitter.com/dvassallo/status/1606783843398471680?ref_src=twsrc%5Etfw">December 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<h1>Frequently asked questions</h1>
+
+		<div class="cards_grid">
+
+		    <Faq title="Who is this bootcamp for?" content="Too many tutorials and little action? This bootcamp is perfect for you. Web development looks complex to you? This bootcamp is perfect for you. You're a frontend dev and you want to get more fullstack/backend skills? This bootcamp is great for you. You're a backend dev and you want to get more frontend skills? This bootcamp is great for you." />
+			<Faq title="What's the difference with a $10 Udemy course?" content="This is a different thing. It's a cohort-based course. You will have access to a community chat of students that started the course on the same day as you did. This means you have accountability and motivation. Make friends with your fellow class mates to get the most out of the bootcamp, and challenge each other! How many Udemy courses did you buy but never followed through after the first couple lessons? There's no way this bootcamp will end up like the dozens of courses you purchased but never finished." />
+			<Faq title="What's the effort required?" content="It depends, but I estimate about 1 or 2 hours every week day. Or do 3/4 hours on weekend days. If you do more, it's better because the more time you study, the more things will 'stick'. But that's a start. It's not super intensive, it's a marathon, not a sprint." />
+			<Faq title="I want to know the schedule" content="The bootcamp is not 'live'. You can adjust it around your school/work/life schedule. I unlock a new module every week. The only thing I ask is to stay on top of the weekly schedule, meaning I will release a new module on Tuesday, complete it by next Tuesday when a new module will unlock. Most students will follow the schedule and you'll find more activity and community support because everyone is doing those lessons along with you. This is the best way to stay on top of the schedule and complete the bootcamp successfully." />
+
+		</div>
+
+		<h1>Frequently asked questions</h1>
+
+		
 
 		
 

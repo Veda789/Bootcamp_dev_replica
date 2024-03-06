@@ -1,0 +1,35 @@
+---
+interface Props {
+   title: string;
+content: string;
+
+
+}
+
+const {content,title} = Astro.props;
+---
+<style>
+ 
+
+
+article
+{
+    padding: 20px;
+	border-radius: 0.75rem;
+	background-color: rgb(250 250 250);
+}
+dt
+{
+    color: #18181B;
+    font-size: 24px;
+    font-weight: 700;
+}
+p{
+    color: #27272A;
+    font-size: 20px;
+}
+</style>
+<article>
+<dt>{title}</dt>
+  <p>{content}</p>
+</article>
